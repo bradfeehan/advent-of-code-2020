@@ -10,3 +10,7 @@
 # See https://docs.rubocop.org/rubocop/configuration
 AllCops:
   NewCops: enable
+
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*_spec.rb'
