@@ -1,6 +1,11 @@
 advent-of-code-2020
 ===================
 
+[![Tests][badge]][badge-link]
+
+[badge]: <https://github.com/bradfeehan/advent-of-code-2020/workflows/Ruby/badge.svg>
+[badge-link]: <https://github.com/bradfeehan/advent-of-code-2020/actions?query=workflow%3ARuby>
+
 My work on the Advent of Code 2020.
 
 <https://adventofcode.com/2020>
