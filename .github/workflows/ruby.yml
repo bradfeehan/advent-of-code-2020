@@ -2,7 +2,7 @@ name: Ruby
 on: [push, pull_request]
 jobs:
   rubocop:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
     - uses: actions/checkout@v2
     - uses: ruby/setup-ruby@v1
@@ -11,7 +11,7 @@ jobs:
     - run: bundle install
     - run: bundle exec rubocop
   rspec:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
     - uses: actions/checkout@v2
     - uses: ruby/setup-ruby@v1
